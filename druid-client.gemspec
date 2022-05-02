@@ -37,7 +37,10 @@ Gem::Specification.new do |spec|
   spec.add_dependency "faraday", "~> 2.2"
 
   spec.add_development_dependency "byebug", "~> 11.1", ">= 11.1.3"
+  spec.add_development_dependency "flay", "~> 2.13"
+  spec.add_development_dependency "flog", "~> 4.6", ">= 4.6.5"
   spec.add_development_dependency "rake", "~> 13.0", ">= 13.0.6"
+  spec.add_development_dependency "reek", "~> 6.1", ">= 6.1.1"
   spec.add_development_dependency "rspec", "~> 3.11"
   spec.add_development_dependency "rubocop", "~> 1.28", ">= 1.28.2"
   spec.add_development_dependency "rubocop-rake", "~> 0.6.0"

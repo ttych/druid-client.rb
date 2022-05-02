@@ -5,7 +5,12 @@ RSpec.describe Druid::Client do
     expect(Druid::Client::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  describe "new" do
+    let(:url) { "https://druid.url" }
+    let(:client) { described_class.new(url: url) }
+
+    it "returns a Client instance" do
+      expect(client).to_not be nil
+    end
   end
 end
