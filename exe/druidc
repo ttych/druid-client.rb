@@ -2,4 +2,4 @@
 
 require 'druid/client/cli'
 
-Druid::Client::Cli.run
+Druid::Client::Cli::Druidc.start(ARGV)
