@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'druid/client/cli'
+
+Druid::Client::Cli.run
